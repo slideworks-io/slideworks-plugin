@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "slideworks": {
+      "type": "http",
+      "url": "https://mcp.slideworks.io/mcp"
+    }
+  }
+}

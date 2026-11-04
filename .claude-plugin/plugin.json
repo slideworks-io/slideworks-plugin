@@ -1,0 +1,23 @@
+{
+  "name": "slideworks",
+  "displayName": "Slideworks",
+  "version": "0.3.20",
+  "description": "Build consulting-grade PowerPoint decks from Slideworks' curated layout library: routes each slide to the right layout, renders it on the Slideworks master, inserts it once.",
+  "author": {
+    "name": "Slideworks",
+    "email": "info@slideworks.io",
+    "url": "https://slideworks.io"
+  },
+  "homepage": "https://slideworks.io",
+  "repository": "https://github.com/slideworks-io/slideworks-plugin",
+  "license": "Proprietary",
+  "keywords": [
+    "powerpoint",
+    "slides",
+    "deck",
+    "presentation",
+    "consulting",
+    "strategy",
+    "layouts"
+  ]
+}

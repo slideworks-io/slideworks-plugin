@@ -1,0 +1,26 @@
+{
+  "name": "slideworks",
+  "owner": {
+    "name": "Slideworks",
+    "email": "info@slideworks.io",
+    "url": "https://slideworks.io"
+  },
+  "metadata": {
+    "description": "The Slideworks plugin for Claude: consulting-grade PowerPoint decks from a curated layout library."
+  },
+  "plugins": [
+    {
+      "name": "slideworks",
+      "source": "./",
+      "description": "Build consulting-grade PowerPoint decks from Slideworks' curated layout library: routes each slide to the right layout, renders it on the Slideworks master, inserts it once.",
+      "author": {
+        "name": "Slideworks",
+        "url": "https://slideworks.io"
+      },
+      "homepage": "https://slideworks.io",
+      "repository": "https://github.com/slideworks-io/slideworks-plugin",
+      "license": "Proprietary",
+      "category": "productivity"
+    }
+  ]
+}
