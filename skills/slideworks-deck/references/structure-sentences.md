@@ -1,6 +1,8 @@
-# Phrasing structure sentences
+# Phrasing structure sentences (the `find_layout` fallback)
 
-The router (`route_deck`, `find_layout`) matches on **structure and counts**, not on topic. A good sentence names the evidence form, the counts and the element types. Topic words, client names and the figures themselves don't help routing.
+Browse first (SKILL.md, step 2): the browse query names only the relationship, with no counts. A structure sentence is for the fallback alone, when two browses found nothing that fits a slide, at most three slides a deck.
+
+The router (`find_layout`) matches on **structure and counts**, not on topic. A good sentence names the evidence form, the counts and the element types. Topic words, client names and the figures themselves don't help routing.
 
 The examples below show the pattern for each kind of evidence. **Don't reuse them verbatim.** Write the sentence from your own slide: your counts, your chart type, your elements. Two decks about different companies should not produce the same sentences.
 
@@ -32,7 +34,7 @@ The gate and top hit are shown (most routed on 2026-09-27, the rest on 2026-09-2
 | `driver tree: profitability broken down into revenue and cost drivers over 4 levels` | exact → ref 70-7 |
 | `value at stake: 4 levers as rows, each with a large figure, a category label, 2 lever bullets and a share of total, no chart` | exact → ref 9-22 |
 
-A bridge from one value to another is a `waterfall` in the core chart layouts (up to 12 steps): name the chart type in the sentence, e.g. `waterfall bridge from 2024 to 2026 EBIT with 5 levers and a takeaway panel`. A decomposition into multiplied drivers stays a driver chart like the ones above.
+A bridge from one value to another is a `waterfall` in the core chart layouts (up to 12 steps): name the chart type in the sentence, e.g. `waterfall bridge from 2024 to 2026 EBIT with 5 levers, with room for a 2 to 3 sentence so-what`. A decomposition into multiplied drivers stays a driver chart like the ones above.
 
 ## Matrix, scoring and assessment
 
@@ -76,7 +78,7 @@ A bridge from one value to another is a `waterfall` in the core chart layouts (u
 
 ## Phrasing rules
 
-- Lead with the evidence form (`ranking bar chart`, `driver tree`, `matrix`, `value chain`), then the counts, then the extras (`side panel`, `callouts`, `logos`, `summary row`).
+- Lead with the evidence form (`ranking bar chart`, `driver tree`, `matrix`, `value chain`), then the counts, then the extras (`callouts`, `logos`, `summary row`, a `reference line`, `totals above the bars`), then the room the so-what needs (`room for a one-line so-what`, `room for a 2 to 3 sentence so-what`). Never name where the so-what sits.
 - Name the element types the slide must contain: `icons`, `harvey balls`, `check marks`, `native chart`, `table`, `number balls`, `photo`.
 - Say `no chart` or `no image` when you specifically don't want one. Many reference slides have charts or photos and will otherwise compete.
 - Probabilities move a few points between runs, so a sentence near 0.5 can flip to `none`. Tighten the counts rather than falling back to a generic text layout.
