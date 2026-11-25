@@ -1,8 +1,8 @@
 {
   "name": "slideworks",
   "displayName": "Slideworks",
-  "version": "0.3.27",
-  "description": "Build consulting-grade PowerPoint decks from Slideworks' curated layout library: routes each slide to the right layout, renders it on the Slideworks master, inserts it once.",
+  "version": "0.4.0",
+  "description": "Build consulting-grade PowerPoint decks from Slideworks' curated library: browses its reference slides and core layouts for each slide, renders the deck on the Slideworks master, inserts it once.",
   "author": {
     "name": "Slideworks",
     "email": "info@slideworks.io",

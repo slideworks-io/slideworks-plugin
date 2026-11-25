@@ -1,6 +1,8 @@
-# Phrasing structure sentences
+# Phrasing structure sentences (the `find_layout` fallback)
 
-The router (`route_deck`, `find_layout`) matches on **structure and counts**, not on topic. A good sentence names the evidence form, the counts and the element types. Topic words, client names and the figures themselves don't help routing.
+Browse first (SKILL.md, step 2): the browse query names only the relationship, with no counts. A structure sentence is for the fallback alone, when two browses found nothing that fits a slide, at most three slides a deck.
+
+The router (`find_layout`) matches on **structure and counts**, not on topic. A good sentence names the evidence form, the counts and the element types. Topic words, client names and the figures themselves don't help routing.
 
 The examples below show the pattern for each kind of evidence. **Don't reuse them verbatim.** Write the sentence from your own slide: your counts, your chart type, your elements. Two decks about different companies should not produce the same sentences.
 
