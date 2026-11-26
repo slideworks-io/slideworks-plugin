@@ -1,7 +1,7 @@
 {
   "name": "slideworks",
   "displayName": "Slideworks",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Build consulting-grade PowerPoint decks from Slideworks' curated library: browses its reference slides and core layouts for each slide, renders the deck on the Slideworks master, inserts it once.",
   "author": {
     "name": "Slideworks",

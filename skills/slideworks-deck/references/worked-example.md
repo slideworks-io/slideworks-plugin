@@ -23,7 +23,7 @@ The cover is `title-image-box` and is not browsed. Two of the three body slides 
 
 ## 2. Browse (one `browse_deck` call for all body slides)
 
-Each relationship is general: no Fjordvik, no "facilities", no "energy", no counts and no layout words. Slide 2 is numeric, so it also passes `numeric: true`. Each slide comes back with reference slides marked `[ref]` and core layouts marked `[core]` in one list; this run took reference slides for both.
+The call names the deck's type (`decision`) and each slide's relationship. Each relationship is general: no Fjordvik, no "facilities", no "energy", no counts and no layout words. Slide 2 is numeric, so it also passes `numeric: true`. Each slide comes back with reference slides marked `[ref]` and core layouts marked `[core]` in one list; this run took reference slides for both.
 
 | # | Relationship | What came back (names) |
 | - | --- | --- |
