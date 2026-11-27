@@ -50,11 +50,11 @@ The cover is the layout `title-image-box`; read it with `get_layout_schema`.
 - A plan over time, when the source gives the dates or weeks: `project-plan-with-phases-and-workstreams-by-week` for phases with their workstreams, or `project-plan-with-workstreams-names-dates-and-weeks` for workstreams with owner, due date and status.
 - Risks with their mitigation, rated on likelihood and impact: `risk-mitigation`.
 - The team: `team-overview-with-pictures` for names and roles, or `team-profiles-with-square-pictures` for two to five people with a short profile.
-- A strategy on one page, from the vision down to its elements: `project-vision-and-strategy-house`.
-- Three to five equal points without figures: `icon-paragraph-columns`.
+- A strategy on one page: `project-vision-and-strategy-house`, only when the slide states a vision or ambition and the elements that deliver it. Never for a market, a system, a product mix, a positioning or a list of findings.
+- Three to five equal points: `icon-paragraph-columns`, only when the points carry no figures and no browse result shows how they relate, and at most once in a deck.
 - An agenda, when the user asks for one: `agenda`, or `content-overview-circles` when each section needs a sentence. A section divider is `section-breaker`.
 
-If the content does not fit the house layout's capacity, browse that slide like any other.
+A house layout is for the slide of that purpose only. Never use one to hold other content, and never for evidence with figures: browse that slide like any other. Also browse when the content does not fit the house layout's capacity.
 
 ## Step 3: Pick one composition per slide
 
